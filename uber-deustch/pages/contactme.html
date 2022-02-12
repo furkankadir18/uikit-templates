@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="TR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="../assets/uikit/dist/css/uikit.custom-theme.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="uk-sticky"
+        uk-sticky="top: 60px; sel-target: .target; cls-active: navbar-animation-background uk-navbar-sticky; cls-inactive: uk-light">
+        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+            <div class="uk-navbar-left">
+                <ul class="uk-navbar-nav">
+                    <a class="item-left-padding uk-navbar-item uk-link-reset" href="#">
+                        <div class="uk-inline">
+                            <span uk-icon="icon: menu" uk-toggle="target:#offcanvas-flip"></span>
+                        </div>
+                    </a>
+                    <div id="offcanvas-flip" uk-offcanvas="overlay: true">
+                        <div class="uk-offcanvas-bar overlay-background">
+                            <button class="uk-offcanvas-close" type="button" uk-close></button>
+                            <a href="https://www.instagram.com/fenerbahce/?hl=tr" target="_blank"
+                                uk-icon="icon:  instagram"></a>
+                            <a href="https://twitter.com/Fenerbahce" target="_blank" uk-icon="icon:  twitter"></a>
+                            <a href="https://www.youtube.com/c/fenerbahce" target="_blank" uk-icon="icon:  youtube"></a>
+                            <a href="https://tr-tr.facebook.com/Fenerbahce" target="_blank"
+                                uk-icon="icon:  facebook"></a>
+                            <h2>FENERBAHÇE</h2>
+                            <h4><a class="uk-link-reset" href="../pages/portfolio.html">ANA SAYFA</a>
+                            </h4>
+                            <h4>BAŞARILAR</h4>
+                            <h4><a class="uk-link-reset" href="contactme.html">BİZE ULAŞIN</a></h4>
+                        </div>
+                    </div>
+                    </a>
+                </ul>
+            </div>
+            <div class="uk-navbar-center uk-flex">
+                <h1 class="uk-margin-remove">F E N E R B A H Ç E </h1><a href="../pages/portfolio.html"><img width="60"
+                        data-src="../assets/images/fenerbahce2.png" alt="" uk-img></a>
+            </div>
+            <div class="uk-navbar-right">
+                <a href="tel:+905554443322" class="item-right-padding uk-navbar-item uk-link-reset"><span>
+                        <div uk-icon="receiver"></div>
+                    </span><span></span></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="uk-section">
+            <div class="uk-section uk-padding-remove-top">
+                <div class="uk-container">
+                    <div class="uk-margin-auto uk-width-1-2 uk-text-center uk-child-width-1-1" uk-grid>
+                        <h1 class=" uk-text-muted uk-padding-remove">BİZE ULAŞIN</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-container">
+                <div class="uk-width-1-3 uk-margin-auto uk-flex" uk-grid>
+                    <form class="uk-grid-small uk-padding-remove" uk-grid>
+                        <div class="uk-width-1-1">
+                            <input class="uk-input" type="text" placeholder="Adınız">
+                        </div>
+                        <div class="uk-width-1-1">
+                            <input class="uk-input" type="text" placeholder="Soyadınız">
+                        </div>
+                        <div class="uk-width-1-1">
+                            <input class="uk-input" type="text" placeholder="E-posta adresiniz">
+                        </div>
+                        <div class="uk-width-1-1">
+                            <input class="uk-input" type="text" placeholder="Konu">
+                        </div>
+                        <div class="uk-width-1-1">
+                            <textarea class="uk-input" id="intro" type="textarea" placeholder="Mesaj"></textarea>
+                        </div>
+                        <div class="uk-flex uk-flex-center uk-width-1-1">
+                            <button class="uk-button uk-button-default" type="submit">
+                                SUBMIT
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="../assets/uikit/dist/js/uikit.min.js"></script>
+    <script src="../assets/uikit/dist/js/uikit-icons.min.js"></script>
+</body>
+
+</html>
